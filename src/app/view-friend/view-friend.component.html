@@ -1,0 +1,28 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <table class="table table-bordered border-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Friend Name</th>
+                        <th scope="col">Describe Your Friend</th>
+                        <th scope="col">Friend Nickname </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let i of view">
+                        <td>{{i.name}}</td>
+                        <td>{{i.friendName}}</td>
+                        <td>{{i.friendNickName}}</td>
+                        <td>{{i.DescribeYourFriend}}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+</div>
