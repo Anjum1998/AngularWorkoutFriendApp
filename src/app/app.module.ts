@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ViewFriendComponent } from './view-friend/view-friend.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddFriendComponent } from './add-friend/add-friend.component';
+import { NavbarComponent } from './navbar/navbar.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -23,7 +24,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     ViewFriendComponent,
-    AddFriendComponent
+    AddFriendComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
