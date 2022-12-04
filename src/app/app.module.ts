@@ -7,17 +7,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ViewFriendComponent } from './view-friend/view-friend.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AddFriendComponent } from './add-friend/add-friend.component';
 const myRoute:Routes=[
   {
     path:"",
     component:ViewFriendComponent
 
+  },
+  {
+    path:"add",
+    component:AddFriendComponent
   }
 ]
 @NgModule({
   declarations: [
     AppComponent,
-    ViewFriendComponent
+    ViewFriendComponent,
+    AddFriendComponent
   ],
   imports: [
     BrowserModule,
